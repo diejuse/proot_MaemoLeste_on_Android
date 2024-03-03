@@ -8,7 +8,7 @@
 3. Termux-X11 installed.
 ## Steps to install.
 ### Install termux and termux-11
-- Download and install latest arm64-v8a APK release of Termux-x11 from https://github.com/termux/termux-x11.
+- Download and install latest arm64-v8a APK release of Termux-x11 from https://github.com/termux/termux-x11/releases
 - Configure this termux-x11 main preferences:
   - Display resolution mode: scaled
   - Display scale, % 160
