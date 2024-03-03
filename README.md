@@ -22,5 +22,11 @@
 -     wget -O ~/leste.tar.xz https://www.dropbox.com/scl/fi/ar3k139psregx763dlpc4/maemoleste_proot_arm64_diejuse_v1.tar.xz?rlkey=k47q3oc7wibcez1okrj6xvt08
 -     tar xJf leste.tar.xz -C ~
 -     cp leste/diejuse_scripts/prootMaemo.sh .
-  
+- On Android 12+ Termux may be unstable. Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get [Process completed (signal 9) - press Enter] message in the terminal without actually exiting the shell process yourself.
+To solve, connect your Android device to your PC and run this ADB deactivation instrucions, on the following order:
+-      adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
+-      adb shell "/system/bin/device_config put activity_manager max_phantom_processes 2147483647"
+-      adb shell settings put global settings_enable_monitor_phantom_procs false
+-  
+
 
