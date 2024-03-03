@@ -20,4 +20,6 @@
 -     termux-setup-storage # choose "allow"
 -     apt install -y x11-repo && apt install -y nano wget termux-x11-nightly virglrenderer-android pulseaudio
 -     wget -O ~/leste.tar.xz https://www.dropbox.com/scl/fi/ar3k139psregx763dlpc4/maemoleste_proot_arm64_diejuse_v1.tar.xz?rlkey=k47q3oc7wibcez1okrj6xvt08
+-     tar xJf leste.tar.xz ~
+- 
 
