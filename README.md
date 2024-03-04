@@ -7,7 +7,7 @@
 2. Termux installed 
 3. Termux-X11 installed.
 ## Steps to install.
-### Install termux and termux-11
+### Install termux and termux-11 (and termux-api)
 - Download and install latest arm64-v8a APK release of Termux-x11 from https://github.com/termux/termux-x11/releases
 - Configure this termux-x11 main preferences:
   - Display resolution mode: scaled
@@ -18,7 +18,7 @@
 - Open termux and run this:
 -     apt update -y && apt upgrade -y # press enter all times key if asked
 -     termux-setup-storage # choose "allow"
--     apt install -y x11-repo && apt install -y nano wget termux-x11-nightly proot virglrenderer-android pulseaudio
+-     apt install -y x11-repo && apt install -y nano wget termux-x11-nightly termux-api proot virglrenderer-android pulseaudio
 -     wget -O ~/leste.tar.xz https://www.dropbox.com/scl/fi/ar3k139psregx763dlpc4/maemoleste_proot_arm64_diejuse_v1.tar.xz?rlkey=k47q3oc7wibcez1okrj6xvt08
 -     tar xJf leste.tar.xz -C ~
 -     cp leste/diejuse_scripts/prootMaemo.sh .
@@ -27,6 +27,8 @@ To solve, connect your Android device to your PC and run this ADB deactivation i
 -      adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
 -      adb shell "/system/bin/device_config put activity_manager max_phantom_processes 2147483647"
 -      adb shell settings put global settings_enable_monitor_phantom_procs false
--  
-
+Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9-disable-phantom-process-killer-in-android-12-13/
+### 
+- (OPTIONAL). Download and install termux-api the latest apk release of Termux-api from https://f-droid.org/es/packages/com.termux.api/ 
+If you want to access Android functions from Termux such as getting the battery level, opening the camera and other applications.
 
