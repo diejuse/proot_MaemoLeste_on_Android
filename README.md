@@ -19,7 +19,7 @@
 -     apt update -y && apt upgrade -y # press enter all times key if asked
 -     termux-setup-storage # choose "allow"
 -     apt install -y x11-repo && apt install -y nano wget termux-x11-nightly termux-api proot virglrenderer-android pulseaudio
--     wget -O ~/leste.tar.xz https://www.dropbox.com/scl/fi/ar3k139psregx763dlpc4/maemoleste_proot_arm64_diejuse_v1.tar.xz?rlkey=k47q3oc7wibcez1okrj6xvt08
+-     wget -O ~/leste.tar.xz https://www.dropbox.com/scl/fi/tl9q2lj4unp3p6b9dnip4/maemoleste_proot_arm64_diejuse_v100.tar.xz?rlkey=6z9ocfit00wl00fz17t9p5yge&dl=0
 -     tar xJf leste.tar.xz -C ~
 -     cp leste/diejuse_scripts/prootMaemo.sh .
 - On Android 12+ Termux may be unstable. Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get [Process completed (signal 9) - press Enter] message in the terminal without actually exiting the shell process yourself.
@@ -29,6 +29,5 @@ To solve, connect your Android device to your PC and run this ADB deactivation i
 -      adb shell settings put global settings_enable_monitor_phantom_procs false
 Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9-disable-phantom-process-killer-in-android-12-13/
 ### 
-- (OPTIONAL). Download and install termux-api the latest apk release of Termux-api from https://f-droid.org/es/packages/com.termux.api/ 
-If you want to access Android functions from Termux such as getting the battery level, opening the camera and other applications.
+- (OPTIONAL. If you want to access Android functions from Termux such as getting the battery level, opening the camera and other applications. Does not work on all devices.) Download and install termux-api the latest apk release of Termux-api from https://f-droid.org/es/packages/com.termux.api/ 
 
