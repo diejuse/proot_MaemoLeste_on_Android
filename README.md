@@ -53,7 +53,7 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 1. Open termux-x11 app.
 2. Open termux app. There only has to be one session running or the graphics acceleration provided by virglrender will not work.
 3. Run:
-      bash prootMaemo.sh
+    -      bash prootMaemo.sh
    Immediately open termux-x11 again.
    
 ## CLOSING IT PROPERLY.
