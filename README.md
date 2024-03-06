@@ -1,5 +1,12 @@
 # Maemo Leste via proot for ARM64 Android 8+ devices.
-WARNING: This Linux distro has access to your Android's internal storage (/sdcard). You could accidentally delete important files from your Android device. I am not responsible for any damages caused by installing or using this software/product. Use this software/product at your own risk.
+## About Maemo Leste.
+Maemo Leste is an open-source project aiming to maintain and continue the development of the Maemo platform, originally developed by Nokia for their mobile devices like the Nokia N900 smartphones.
+Maemo Leste focuses on providing an open and free software environment for mobile devices, emphasizing user freedom, privacy, and transparency. The project aims to extend the lifespan of devices like the Nokia N900, enabling users to use updated operating systems and retain control over their devices.
+## About Maemo Leste via proot.
+I am an Android system user and I have had (and have) many Android smartphones. However, I still remember my beloved (now dead) Nokia N900 and its fantastic Maemo Freemantle operating system. I remember how powerful I felt. I felt like I had a computer in my pocket with a Linux system and its infinite possibilities. Almost the same as with my computer (based on Linux too).
+Unfortunately, the hardware of the Nokia N900 is very outdated compared to today's smartphones: little RAM, low-capacity battery, slow processor... And no manufacturer is considering resurrecting the Nokia N900 with current hardware. I am as much a lover of the Nokia N900 software as I am of the hardware of modern Android phones and if I have to choose I prefer the latter.
+This project arises from trying to combine the two things: having a modern mobile phone while being able to enjoy software derived from the one my beloved N900 had.
+By installing Maemo Leste via proot you will not turn your modern Android smartphone into a smartphone with Linux installed natively, but you will be able to run Maemo Leste as another application and enjoy trying many apps as if you had a Nokia N900 again. Something is better than nothing :)
 ## Tested on:
 1. Samsung Galaxy Fold5 (Android 14).
 2. Blackberry Keyone (Android 8).
@@ -10,6 +17,8 @@ WARNING: This Linux distro has access to your Android's internal storage (/sdcar
 3. Termux-X11 APK installed.
 4. Termux-api APK installed (optional, it doesn't wotk on all devices).
 ## INSTALLING.
+(WARNING: This Linux distro has access to your Android's internal storage (/sdcard). You could accidentally delete important files from your Android device. I am not responsible for any damages caused by installing or using this software. Use this software at your own risk.)
+
 - Download and install latest arm64-v8a APK release of Termux-x11 from https://github.com/termux/termux-x11/releases
 - Configure this termux-x11 main preferences:
   - Display resolution mode: scaled
