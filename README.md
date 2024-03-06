@@ -1,13 +1,15 @@
 # Maemo Leste via proot for ARM64 Android 8+ devices.
+WARNING: This Linux distro has access to your Android's internal storage (/sdcard). You could accidentally delete important files from your Android device. I am not responsible for any damages caused by installing or using this software/product. Use this software/product at your own risk.
 ## Tested on:
 1. Samsung Galaxy Fold5 (Android 14).
-2. Blackberry Keyone (Android 8)
+2. Blackberry Keyone (Android 8).
+3. Samsung Fold 1 F900F (Android 12).
 ## Requirements.
 1. Android 8 or more based device.
-2. Termux installed 
-3. Termux-X11 installed.
-## Steps to install.
-### Install termux and termux-11 (and termux-api)
+2. Termux APK installed 
+3. Termux-X11 APK installed.
+4. Termux-api APK installed (optional, it doesn't wotk on all devices).
+## INSTALLING.
 - Download and install latest arm64-v8a APK release of Termux-x11 from https://github.com/termux/termux-x11/releases
 - Configure this termux-x11 main preferences:
   - Display resolution mode: scaled
@@ -30,4 +32,13 @@ To solve, connect your Android device to your PC and run this ADB deactivation i
 Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9-disable-phantom-process-killer-in-android-12-13/
 ### 
 - (OPTIONAL. If you want to access Android functions from Termux such as getting the battery level, opening the camera and other applications. Does not work on all devices.) Download and install termux-api the latest apk release of Termux-api from https://f-droid.org/es/packages/com.termux.api/ 
+## RUNNING
+1. Open termux-x11 app.
+2. Open termux app. There only has to be one session running or the graphics acceleration provided by virglrender will not work.
+3. bash prootMaemo.sh. Immediately open termux-x11 again.
+## CLOSING PROPERLY.
+1. Open termux app.
+2. Press control+c.
+3. Exit.
+4. Long press on Termux and kill the session.
 
