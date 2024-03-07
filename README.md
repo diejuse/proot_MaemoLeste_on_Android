@@ -31,6 +31,7 @@ Following these steps you will install a modified Maemo Leste image with a minim
   - Display resolution mode: scaled
   - Display scale, % 160
   - Touchscreen input mode: Direct touch
+      - "Direct touch" causes continuous Termux-X11 crashes. You can choose "Simulated touchscreen" option which does not cause crashes but is more annoying to use (it is a mix between mouse click and tap touchscreen, you will have to long tap to simulate the taps).
   - Show additional keyboard: disabled    
 - Download and install latest APK file of Termux from https://f-droid.org/es/packages/com.termux/
 - Open termux and run this (use copy & paste):
