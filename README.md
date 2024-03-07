@@ -19,9 +19,10 @@ By installing Maemo Leste via proot you will not turn your modern Android smartp
 
 ## Requirements.
 1. Android 8 or more based device.
-2. Termux APK installed 
-3. Termux-X11 APK installed.
-4. Termux-api APK installed (optional, it doesn't wotk on all devices).
+2. Termux APK installed.  
+3. Termux-X11 APK installed.  
+4. Termux-api APK installed (optional, it doesn't wotk on all devices).  
+5. Termux:Widget APK installed (optional, see below).
 
 ## INSTALLING.
 Following these steps you will install a modified Maemo Leste image with a minimum of installed apps that make it usable. From this base image you can install whatever you want:  
@@ -61,5 +62,8 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 1. Open termux app.
 2. Press control+c.
 3. Exit.
-4. Long press on Termux and kill the session.
+4. Long press on Termux and kill the session.  
 
+### ADDING AN ICON TO OPEN MAEMO LESTE FROM YOUR ANDROID LAUNCHER.
+1. Install Termux:Widget from https://f-droid.org/es/packages/com.termux.widget/
+2. 
