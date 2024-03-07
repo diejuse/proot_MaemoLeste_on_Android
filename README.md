@@ -65,5 +65,5 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 4. Long press on Termux and kill the session.  
 
 ### ADDING AN ICON TO OPEN MAEMO LESTE FROM YOUR ANDROID LAUNCHER.
-1. Install Termux:Widget from https://f-droid.org/es/packages/com.termux.widget/
+1. Download and install the latest Termux:Widget APK from https://f-droid.org/es/packages/com.termux.widget/
 2. 
