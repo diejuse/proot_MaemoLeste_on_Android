@@ -1,7 +1,7 @@
 ## Version 100 (06/03/2024)
 The base version (Chimaera Devuan). Based on ARM64 generic Raspberry Pi 3 https://maedevu.maemo.org/images/arm64-generic/20200114/
 
-## Version 101 (14/03/2014)
+## Version 101 (14/03/2024)
 List of fixes:
 - "sudo"  
   It is now possible to use Maemo Leste like "user" (not root user). For example, being able to do "sudo apt update". To change from "root" to "user", from the terminal: "su - user" and "exit" to go back to root.
