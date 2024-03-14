@@ -21,7 +21,7 @@ By installing Maemo Leste via proot you will not turn your modern Android smartp
 1. Android 8 or more based device.
 2. Termux APK installed.  
 3. Termux-X11 APK installed.  
-4. Termux-api APK installed (optional, it doesn't wotk on all devices).  
+4. Termux-api APK installed (optional, it should work on all devices).  
 5. Termux:Widget APK installed (optional, see below).
 
 ## INSTALLING.
@@ -49,7 +49,10 @@ To solve, connect your Android device to your PC and run this ADB deactivation i
     -      adb shell settings put global settings_enable_monitor_phantom_procs false
 Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9-disable-phantom-process-killer-in-android-12-13/
 ### 
-- (OPTIONAL. If you want to access Android functions from Termux such as getting the battery level, opening the camera and other applications. Does not work on all devices.) Download and install termux-api the latest apk release of Termux-api from https://f-droid.org/es/packages/com.termux.api/
+
+- OPTIONAL. If you want to access Android functions from Termux such as getting the battery level, opening the camera and other applications, follow next steps:
+  - Download and install termux-api the latest apk release of Termux-api from https://f-droid.org/es/packages/com.termux.api/
+  - Enable the advanced permission "Draw over other apps" of the Termux application (change it from Android settings).
 
 ## RUNNING IT.
 1. Open termux-x11 app.
