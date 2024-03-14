@@ -1,6 +1,6 @@
-# VERSION 100
-The base version
-# VERSION 101. 14/03/2014
+## VERSION 100
+The base version.
+## VERSION 101. 14/03/2014.
 List of fixes:
 - sudo
   It is now possible to use Maemo Leste like "user" (not root user). For example, being able to do "sudo apt update". To change from "root" to "user", from the terminal: "su - user" and "exit" to go back to root.
