@@ -67,3 +67,6 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 ### ADDING AN ICON TO OPEN MAEMO LESTE FROM YOUR ANDROID LAUNCHER.
 1. Download and install the latest Termux:Widget APK from https://f-droid.org/es/packages/com.termux.widget/
 2. 
+
+### VERSION UPDATES.
+<a href='https://github.com/diejuse/proot_MaemoLeste_on_Android/blob/main/UPDATES.md'>Here</a>
