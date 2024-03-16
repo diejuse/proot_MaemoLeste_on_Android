@@ -21,7 +21,7 @@ List of fixes:
 ## Version 120 (16/03/2024)  
 List of fixes:  
 - Maemo Browser ('jid' package) running.  
-- Fixed some errors in prootMaemo.sh script. Now android launching apps from Maemo runs on more devices (tested on Fxtec Pro 1 with Lineage OS 14).  
+- Fixed some bugs in the prootMaemo.sh script. Now launching Android applications from Maemo Leste works on more devices (tested on Fxtec Pro 1 with Lineage OS 14). 
 - Fixed '"dpkg:warning files list file for package 'xxxx' missing; assuming package has no files currently installed"  multiple errors when 'apt' command is used from terminal.  
 - 'dialog' package installed to avoid "debconf: falling back to frontend readline" annoying message when 'apt' is used.  
 - Installed 'pidgin' and 'purple-telegram' so that a Maemo lLeste user can send and receive messages via telegram, irc, xmpp and other protocols.  
