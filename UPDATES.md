@@ -1,7 +1,7 @@
 ## Version 100 (06/03/2024)
 The base version (Chimaera Devuan). Based on ARM64 generic Raspberry Pi 3 https://maedevu.maemo.org/images/arm64-generic/20200114/
 
-## Version 101 (14/03/2024)
+## Version 110 (14/03/2024)
 List of fixes:
 - "sudo"  
   It is now possible to use Maemo Leste like "user" (not root user). For example, being able to do "sudo apt update". To change from "root" to "user", from the terminal: "su - user" and "exit" to go back to root.
@@ -17,5 +17,12 @@ List of fixes:
   - /etc/apt/sources.list.d/hildon-applications-manager.list  
   - ~/.bashrc
   - /diejuse_scripts/android    # NEW
-  - /diejuse_scripts/android_xxxxx.sh  
+  - /diejuse_scripts/android_xxxxx.sh
+## Version 120 (16/03/2024)  
+List of fixes:  
+- Maemo Browser ('jid' package) running.  
+- Fixed some errors in prootMaemo.sh script. Now android launching apps from Maemo runs on more devices (tested on Fxtec Pro 1 with Lineage OS 14).  
+- Fixed '"dpkg:warning files list file for package 'xxxx' missing; assuming package has no files currently installed"  multiple errors when 'apt' command is used from terminal.  
+- 'dialog' package installed to avoid "debconf: falling back to frontend readline" annoying message when 'apt' is used.  
+- Installed 'pidgin' and 'purple-telegram' so that a Maemo lLeste user can send and receive messages via telegram, irc, xmpp and other protocols.  
  
