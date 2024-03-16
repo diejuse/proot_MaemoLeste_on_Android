@@ -73,6 +73,8 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 -      [[ -d "mkdir ~/.shortcuts" ]] || mkdir ~/.shortcuts > /dev/null 2>&1 ; echo $'((sleep 8; am start -n com.termux.x11/.MainActivity)&)\nbash /data/data/com.termux/files/home/prootMaemo.sh' > ~/.shortcuts/startMaemo.sh ; chmod +x ~/.shortcuts/startMaemo.sh
 3. Go to your home Android launcher, add a termux-widget and choose 'startMaemo.sh'.
 4. Now Maemo Leste is just another application on your Android with its icon. Ready to launch.
+5. You probably don't like the default icon that your Android launcher assigns to the widget. If you want to change the icon you will have to change to an Android launcher that allows it, such as Nova Launcher. You can download the Maemo Leste icon with this command (you will save the leste.png icon in /sdcard).
+-      wget -O /sdcard/leste.png "https://raw.githubusercontent.com/diejuse/proot_MaemoLeste_on_Android/main/leste.png"
 
 ### VERSION UPDATES.
 <a href='https://github.com/diejuse/proot_MaemoLeste_on_Android/blob/main/UPDATES.md'>Here</a>
