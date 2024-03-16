@@ -71,7 +71,7 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 1. Download and install the latest Termux:Widget APK from https://github.com/termux/termux-widget/releases
 2. Open termux and run this commands:
 -      [[ -d "mkdir ~/.shortcuts" ]] || mkdir ~/.shortcuts > /dev/null 2>&1 ; echo $'((sleep 8; am start -n com.termux.x11/.MainActivity)&)\nbash /data/data/com.termux/files/home/prootMaemo.sh' > ~/.shortcuts/startMaemo.sh ; chmod +x ~/.shortcuts/startMaemo.sh
-3. Go to your home Android launcher, add a termux-widget and choose 'launchMaemo.sh'.
+3. Go to your home Android launcher, add a termux-widget and choose 'startMaemo.sh'.
 4. Now Maemo Leste is just another application on your Android with its icon. Ready to launch.
 
 ### VERSION UPDATES.
