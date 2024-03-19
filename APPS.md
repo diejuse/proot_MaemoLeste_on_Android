@@ -31,8 +31,4 @@ You can install them in the following ways:
 ## List of my favorite applications for Maemo Leste.
 My thinking for classifying them as 'favorites' is that they are easy to use for an average user and that they have a responsible design (they must be usable in both horizontal and vertical orientation, harmony in the design, appropriate menu size and buttons, etc.).  
 From now on I am going to present a list of applications classified according to their function. Remember that to install them you just have to run "apt install name_of_app" from the terminal  
-## Text editors
-### kate
-### 
-
-### 
+  - Text editors: mousepad
