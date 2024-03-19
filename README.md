@@ -79,4 +79,7 @@ Source: https://maheshtechnicals.com/fix-termux-error-process-completed-signal-9
 -      wget -O /sdcard/leste.png "https://raw.githubusercontent.com/diejuse/proot_MaemoLeste_on_Android/main/leste.png"
 
 ### VERSION UPDATES.
-<a href='https://github.com/diejuse/proot_MaemoLeste_on_Android/blob/main/UPDATES.md'>Here</a>
+<a href='https://github.com/diejuse/proot_MaemoLeste_on_Android/blob/main/UPDATES.md'>Click here.</a>
+
+### I WANT TO INSTALL APPS!
+<a href='https://github.com/diejuse/proot_MaemoLeste_on_Android/blob/main/APPS'>Click here</a>
