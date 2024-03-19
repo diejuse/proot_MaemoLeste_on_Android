@@ -16,6 +16,8 @@ By installing Maemo Leste via proot you will not turn your modern Android smartp
 1. Samsung Galaxy Flip5 (Android 14). https://youtu.be/0rS_sP_NXAo
 2. Blackberry Keyone (Android 8). https://youtu.be/1gHT4MTAo0g
 3. Samsung Fold 1 F900F (Android 12).
+4. Fxtec Pro1 (Android 10 via Lineage OS 17.1).
+5. Hisense A5 (Android 9). 
 
 ## Requirements.
 1. Android 8 or more based device.
