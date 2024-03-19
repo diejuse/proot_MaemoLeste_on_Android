@@ -8,8 +8,8 @@ In Maemo Leste you can install several types of applications:
 
 ## How do I install the 'Hildon' apps?
 You can install them in the following ways:
-- Through the Hildon Application Manager application that comes pre-installed.
-- Through the terminal application.
+- Through the Hildon Application Manager application (it is already pre-installed).
+- Through the terminal emulator (it is already pre-installed).
   - Search for the name of the app you want to install (for example NOMWeather) from this page: https://github.com/maemo-leste-extras
   - Open the terminal and run two commands:
     -     apt update -y
