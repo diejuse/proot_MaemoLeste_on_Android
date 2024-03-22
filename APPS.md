@@ -26,7 +26,7 @@ You can install them in the following ways:
 - Downloading the application in a .deb file (for example 'sublimetext_arm64.deb' file in the ~/Downloads directory via Chromium) and running from the terminal:
     -     apt update -y
     -     cd ~/Downloads
-    -     apt install sublimetext_arm64.deb
+    -     apt install ./sublimetext_arm64.deb
 
 ## List of my favorite applications for Maemo Leste.
 My thinking for classifying them as 'favorites' is that they are easy to use for an average user and that they have a responsible design (they must be usable in both horizontal and vertical orientation, harmony in the design, appropriate menu size and buttons, etc.).  
