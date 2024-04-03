@@ -25,4 +25,9 @@ List of fixes:
 - Fixed '"dpkg:warning files list file for package 'xxxx' missing; assuming package has no files currently installed"  multiple errors when 'apt' command is used from terminal.  
 - 'dialog' package installed to avoid "debconf: falling back to frontend readline" annoying message when 'apt' is used.  
 - Installed 'pidgin' and 'purple-telegram' so that a Maemo lLeste user can send and receive messages via telegram, irc, xmpp and other protocols.  
- 
+## Version 150 (03/04/2024)  
+- 'Diejuse_onboard' rebuilded and improved.
+- Some fixes in 'prootMaemo.sh'.
+- New Debian apps installed: 'gdebi', 'drawing'.
+- New Maemo Leste apps installed: 'modest' (email client), 'easylist'.
+- 'mousepad' text editor uninstalled, 'gedit' installed instead.
