@@ -41,7 +41,7 @@ Following these steps you will install a modified Maemo Leste image with a minim
 -     apt update -y && apt upgrade -y # press enter all times key if asked
 -     termux-setup-storage # choose "allow"
 -     apt install -y x11-repo && apt install -y nano wget termux-x11-nightly termux-api proot virglrenderer-android pulseaudio
--     wget -O ~/leste.tar.xz "https://www.dropbox.com/scl/fi/u0wom7zzcav4ktwhqdw0u/maemoleste_proot_arm64_diejuse_v150.tar.xz?rlkey=7njql05q3on1m1yr57hwn6nml&dl=0"  # version 150
+-     wget -O ~/leste.tar.xz "https://www.dropbox.com/scl/fi/2v5k1epymb80yg5tkzl7t/maemoleste_proot_arm64_diejuse_v150.tar.xz?rlkey=ukeemrtphi5pwjt66dmrztv6q&dl=0"  # version 150
 -     tar xJf leste.tar.xz -C ~
 -     cp leste/diejuse_scripts/prootMaemo.sh .
 - On Android 12+ Termux may be unstable. Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get [Process completed (signal 9) - press Enter] message in the terminal without actually exiting the shell process yourself.
